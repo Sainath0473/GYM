@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Body Builders GYM - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>The Body Builders GYM</h1>
+    </header>
+    <nav>
+        <a href="about.html">About</a>
+        <a href="home.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <div class="contact-section">
+                <div class="contact-info">
+                    <p><strong>Address:</strong> 123 Fitness St, Wellness City, Health State, 12345</p>
+                    <p><strong>Phone:</strong> (123) 456-7890</p>
+                    <p><strong>Email:</strong> info@fitnesscenter.com</p>
+                </div>
+                <div id="map">
+                    <!-- Embed a Google Maps iframe -->
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093693!2d144.9537353155047!3d-37.81627974202119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f0f6e271%3A0x5045675218ce7e33!2sFitness%20Center!5e0!3m2!1sen!2sus!4v1595151806790!5m2!1sen!2sus" 
+                        width="400" 
+                        height="350" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm" onsubmit="return validateForm()">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="social-media">
+            <h2>Follow Us</h2>
+            <p>Do follow us on Instagram and Facebook for more updates:</p>
+            <a href="https://www.instagram.com/a.aahinst_ddery/" target="_blank">
+                <img src="/images/instagram.png" alt="Instagram" width="80" height="80">
+            </a>
+            <a href="https://www.facebook.com/a.aahinst_ddery/" target="_blank">
+                <img src="/images/facebook.png" alt="Facebook" width="80" height="80">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Body Builders GYM <br>
+            Anumasu Sainath Reddy
+        </p>
+    </footer>
+</body>
+</html>
